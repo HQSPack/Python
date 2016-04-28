@@ -15,5 +15,4 @@ RUN curl -s https://bootstrap.pypa.io/get-pip.py | python
 RUN curl -s https://bootstrap.pypa.io/get-pip.py | python3
 RUN echo "export VISIBLE=now" >> /etc/profile
 ENV HOME /root
-
 WORKDIR /root
